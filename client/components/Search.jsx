@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.css';
 
@@ -16,7 +16,7 @@ const Search = (props) => {
     }
   };
   return (
-    <div>
+    <div id={styles.title}>
       <label htmlFor="query">
         Search Events:
         <input id="query" type="text" value={query} onChange={(event) => setQuery(event.target.value)} onKeyDown={keyDown} />

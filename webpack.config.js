@@ -37,4 +37,5 @@ module.exports = {
     ],
   },
   plugins: [new ESLintPlugin()],
+  devtool: 'inline-source-map',
 };
